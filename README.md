@@ -68,9 +68,9 @@ CITA adopted a time based release cadence.
 * v1.0 - Feb 2019
   * [Release Plan]()
   
-### Older Release
+#### [Older Release](https://github.com/cryptape/cita/releases)
 
-### Release Process
+#### [Release Process]()
 
 ### Component maintainer
 
