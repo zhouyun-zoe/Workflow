@@ -78,7 +78,7 @@ Check the whole [Release process](https://github.com/zhouyun-zoe/Workflow/blob/m
 In this process, developers and reviewers decide in advance what release they are aiming for with specific features, Users know when to expect their features. Enough time after feature development will let us test more, document more and resolve more bug issues. Generally, A quicker feedback cycle and users can benefit from features shipped quicker.
 
 #### Who Manages The Releases?
-As usual, a committer shall volunteer as a release master(RM).
+As usual, a committer shall volunteer as release master(RM).
 
 #### What About Version Numbers?
 Since the first release in 2017, our current versioning protocol is the following:
