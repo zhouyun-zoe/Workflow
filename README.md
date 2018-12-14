@@ -2,9 +2,10 @@
 In here, we will bulid the whole knowledage framework of CITA, including docs, papers and videos. Moreover, we will introduce how community work together and contributing to CITA. Please notice the timeliness of all the following information.
 
 TODO
-[] Add more meetup resources
-[] Add a release plan template
-[] Add CIP
+
+[ ]: Add more meetup resources
+[ ]: Add a release plan template
+[ ]: Add CIP
 
 ## What is CITA!
 
@@ -70,7 +71,8 @@ That is, Github issue and CIP are used to describe what should be fixed or chang
   * If the change is a large change, consider inviting discussion on the issue at dev@cryptape.com first before proceeding to implement the change. Note that changes that modify CITA protocols will also require CIP (CITA Improvement Proposal) process.
 
 * Github Pull Request
-  Follow the guidance in [Contributing.md](https://github.com/cryptape/cita/blob/develop/CONTRIBUTING.md)
+
+Follow the guidance in [Contributing.md](https://github.com/cryptape/cita/blob/develop/CONTRIBUTING.md)
 
 * The Review Process
   * Lively, polite, rapid technical debate is encouraged from everyone in the community. The outcome may be a rejection of the entire change.
@@ -108,6 +110,7 @@ In this process, developers and reviewers decide in advance what release they ar
 As usual, a committer shall volunteer as release master(RM).
 
 #### What About Version Numbers?
+
 Since the first release in 2017, our current versioning protocol is the following:
 We will use three digits for the version: major.minor.bug-fix. The first digit would indicate the major revision (starting at 0), and second indicating minor revision, and the last one number indicating the bug-fix revision.
  
@@ -117,7 +120,9 @@ Feature releases will be a minor release by default (i.e. we will only bump up t
 In those cases, we will bump the major revision digit.
 
 ### Component maintainer
+
 What is a maintainer?
+
 All the committers own the CITA code base and should be committed to making it all as good as possible. But we want to ensure that major areas have at least one person (and preferably two) who act as the defacto owners for each logical subsystem. The responsibilities of a maintainer are the following:
 * Review code contributions that effect your area as promptly as possible
 * Provide the final word on API design for this system
