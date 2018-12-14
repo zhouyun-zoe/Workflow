@@ -1,5 +1,5 @@
 # CITA
-In here, we will bulid the whole knowledage framework of CITA, including docs, papers and videos. Moreover, Please notice the timeliness of all the following information.
+In here, we will bulid the whole knowledage framework of CITA, including docs, papers and videos. Moreover, we will introduce how community work together and contributing to CITA. Please notice the timeliness of all the following information.
 
 ## What is CITA!
 
