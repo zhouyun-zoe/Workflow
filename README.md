@@ -68,9 +68,26 @@ CITA adopted a time based release cadence.
 * v1.0 - Feb 2019
   * [Release Plan]()
   
-#### [Older Release](https://github.com/cryptape/cita/releases)
+### Older Release
 
-#### [Release Process]()
+We release in [Github](https://github.com/cryptape/cita/releases).
+
+### Release Process
+
+Check the whole [Release process](https://github.com/zhouyun-zoe/Workflow/blob/master/release%20process.md) for CITA. 
+In this process, developers and reviewers decide in advance what release they are aiming for with specific features, Users know when to expect their features. Enough time after feature development will let us test more, document more and resolve more bug issues. Generally, A quicker feedback cycle and users can benefit from features shipped quicker.
+
+#### Who Manages The Releases?
+As usual, a committer shall volunteer as a release master(RM).
+
+#### What About Version Numbers?
+Since the first release in 2017, our current versioning protocol is the following:
+We will use three digits for the version: major.minor.bug-fix. The first digit would indicate the major revision (starting at 0), and second indicating minor revision, and the last one number indicating the bug-fix revision.
+ 
+Feature releases will be a minor release by default (i.e. we will only bump up the minor revision digit) unless:
+* We break compatibility (i.e. remove deprecated public methods after a reasonable period).
+* We do something totally amazing (Just a whisper, 2.0 is on the way ) and decide to release as a new major version milestone.
+In those cases, we will bump the major revision digit.
 
 ### Component maintainer
 
