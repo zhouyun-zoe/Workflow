@@ -1,6 +1,11 @@
 # CITA
 In here, we will bulid the whole knowledage framework of CITA, including docs, papers and videos. Moreover, we will introduce how community work together and contributing to CITA. Please notice the timeliness of all the following information.
 
+TODO
+[] Add more meetup resources
+[] Add a release plan template
+[] Add CIP
+
 ## What is CITA!
 
 CITA（ Cryptape Inter-enterprise Trust Automation ）is a smart contract supported blockchain framework, aiming to provide a stable, efficient, flexible and future-oriented platform for enterprise-level blockchain applications. In CITA, functionalities of a blockchain node are decoupled into six microservices, including RPC, Auth, Consensus, Chain, Executor，Network. Microservices coordinate with each other via message queue. By configuring and customizing the services, CITA can meet all the needs of enterprise users.
@@ -34,7 +39,7 @@ Other Resources (paper, podcast, videos)
   
 ## Contributing Changes
 
-Read [contributing.md]() for the first.
+Read [contributing.md](https://github.com/cryptape/cita/blob/develop/CONTRIBUTING.md) for the first.
 
 Please keep in mind nor is code the only way to contribute to the project, we strongly value documentation and gladly accept improvements to the documentation.
 
@@ -49,13 +54,35 @@ Generally, CITA uses:
 
 That is, Github issue and CIP are used to describe what should be fixed or changed, and high-level approaches, and pull requests describe how to implement that change in the project's source code.
 
-* [Github Issue]()
+* Github Issue
 
-* [Github Pull Request]()
+  * Find the existing CITA issue that the change pertains to.
+    * Do not create a new issue if creating a change to address an existing issue in GitHub; add to the existing discussion  and work instead.
+    * To avoid conflicts, assign the issue to yourself if you plan to work on it.
+    * Look for existing pull requests that are linked from the issue, to understand if someone is already working on it.
+  * If the change is new, then it usually needs a new issue. However,sometimes，trivial changes, do not require a GitHub issue. Example: "Fix typos in getting started doc"
+  * If required, create a new issue (below shows some critical fields to fill-in, a more detailed guidance can be found [here](https://github.com/cryptape/cita/blob/develop/CONTRIBUTING.md):
+    * Provide a descriptive Title. 
+    * Write a detailed Description. For bug reports, this should ideally include a short reproduction of the problem. For new features, it may include a design document (or a CITA Improvement Proposal if it's a major change).
+    * Set required fields: Type, Priority, and optionally Labels. 
+    * To avoid conflicts, assign the issue to yourself if you plan to work on it. Leave it unassigned otherwise.
+    * Do not include a patch file; pull requests are used to propose the actual change.
+  * If the change is a large change, consider inviting discussion on the issue at dev@cryptape.com first before proceeding to implement the change. Note that changes that modify CITA protocols will also require CIP (CITA Improvement Proposal) process.
 
-* [The Review Process]()
+* Github Pull Request
+  Follow the guidance in [Contributing.md](https://github.com/cryptape/cita/blob/develop/CONTRIBUTING.md)
 
-* [Closing Your Pull Request]()
+* The Review Process
+  * Lively, polite, rapid technical debate is encouraged from everyone in the community. The outcome may be a rejection of the entire change.
+  * Try to be responsive to the discussion rather than let days pass between replies.
+  * Please add a comment and "@" the reviewer in the PR if you have addressed reviewers' comments. Even though GitHub sends notifications when new commits are pushed, it is helpful to know that the PR is ready for review once again.
+  * Sometimes, other changes will be merged which conflict with your pull request's changes. The PR can't be merged until the conflict is resolved. 
+  * Add [skip ci] into your commit message when contributing docs.
+
+* Closing Your Pull Request
+  * If your pull request is ultimately rejected, please close it.
+  * If a pull request has gotten little or no attention, consider improving the description or the change itself and ping likely reviewers again after a few days. Consider proposing a change that's easier to include, like a smaller and/or less invasive change.
+  * If a pull request is closed because it is deemed not the right approach to resolve a issue, then leave the issue open. However if the review makes it clear that the issue identified in the issue is not going to be resolved by any pull request (not a problem, won't fix) then also resolve the issue.
 
 ## Release
 
