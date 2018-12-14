@@ -85,12 +85,32 @@ Since the first release in 2017, our current versioning protocol is the followin
 We will use three digits for the version: major.minor.bug-fix. The first digit would indicate the major revision (starting at 0), and second indicating minor revision, and the last one number indicating the bug-fix revision.
  
 Feature releases will be a minor release by default (i.e. we will only bump up the minor revision digit) unless:
-* We break compatibility (i.e. remove deprecated public methods after a reasonable period).
+* We break compatibility.
 * We do something totally amazing (Just a whisper, 2.0 is on the way ) and decide to release as a new major version milestone.
 In those cases, we will bump the major revision digit.
 
 ### Component maintainer
+What is a maintainer?
+All the committers own the CITA code base and should be committed to making it all as good as possible. But we want to ensure that major areas have at least one person (and preferably two) who act as the defacto owners for each logical subsystem. The responsibilities of a maintainer are the following:
+* Review code contributions that effect your area as promptly as possible
+* Provide the final word on API design for this system
+* Act as the point-of-contact for questions from users and other committers that relate to this system
+* Have a hygene-related roadmap of items to help make this area of the code base shiny and beautiful. This includes the following:
+  * Code quality: prettiness, readability, etc
+  * Documentation
+  * Test coverage and test quality
+* Help triage bugs related to your area of expertise
 
+Component Maintainers
+
+| Component | Mantainer | Notes |
+| :------| ------: | :------: |
+| Chain |  |  |
+| Consensus |  |  |
+| Network |  |  |
+| Executor |  |  |
+| Auth |  |  |
+| RPC |  |  |
 
 
 
