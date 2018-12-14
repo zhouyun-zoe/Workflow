@@ -101,7 +101,7 @@ All the committers own the CITA code base and should be committed to making it a
   * Test coverage and test quality
 * Help triage bugs related to your area of expertise
 
-Component Maintainers
+**Component Maintainers**
 
 | Component | Mantainer | Notes |
 | :------| ------: | :------: |
